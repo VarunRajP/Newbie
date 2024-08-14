@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		15F72C5A2C69DA6800878295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C592C69DA6800878295 /* AppDelegate.swift */; };
 		15F72C5C2C69DA6800878295 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C5B2C69DA6800878295 /* SceneDelegate.swift */; };
-		15F72C5E2C69DA6800878295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C5D2C69DA6800878295 /* ViewController.swift */; };
+		15F72C5E2C69DA6800878295 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C5D2C69DA6800878295 /* OrderListViewController.swift */; };
 		15F72C612C69DA6800878295 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 15F72C602C69DA6800878295 /* Base */; };
 		15F72C632C69DA6A00878295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F72C622C69DA6A00878295 /* Assets.xcassets */; };
 		15F72C662C69DA6A00878295 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 15F72C652C69DA6A00878295 /* Base */; };
-		15F72C712C69DA6D00878295 /* NewbieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C702C69DA6D00878295 /* NewbieTests.swift */; };
+		15F72C712C69DA6D00878295 /* OrderListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C702C69DA6D00878295 /* OrderListTests.swift */; };
 		15F72C7B2C69DA6D00878295 /* NewbieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C7A2C69DA6D00878295 /* NewbieUITests.swift */; };
 		15F72C7D2C69DA6D00878295 /* NewbieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C7C2C69DA6D00878295 /* NewbieUITestsLaunchTests.swift */; };
+		15F72C8F2C69DB1D00878295 /* OrdersListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C8D2C69DB1D00878295 /* OrdersListTableViewCell.swift */; };
+		15F72C902C69DB1D00878295 /* OrdersListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F72C8E2C69DB1D00878295 /* OrdersListTableViewCell.xib */; };
+		15F72C922C69DB8500878295 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C912C69DB8500878295 /* WebService.swift */; };
+		15F72C952C6B18F100878295 /* OrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C942C6B18F100878295 /* OrderListModel.swift */; };
+		15F72C972C6B195B00878295 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C962C6B195B00878295 /* OrderViewModel.swift */; };
+		15F72C992C6B602000878295 /* ViewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C982C6B602000878295 /* ViewOrderViewController.swift */; };
+		15F72C9C2C6B7F8600878295 /* OrderListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C9B2C6B7F8600878295 /* OrderListProtocol.swift */; };
+		15F72C9F2C6B803100878295 /* MockUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72C9E2C6B803100878295 /* MockUrlProtocol.swift */; };
+		15F72CA12C6B80C100878295 /* MockOrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72CA02C6B80C100878295 /* MockOrderList.swift */; };
+		15F72CA42C6B847A00878295 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72CA32C6B847A00878295 /* Constants.swift */; };
+		15F72CA62C6C7A8000878295 /* GetOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72CA52C6C7A8000878295 /* GetOrdersViewModel.swift */; };
+		15F72CA82C6C7AAB00878295 /* MockGetOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F72CA72C6C7AAB00878295 /* MockGetOrders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +51,28 @@
 		15F72C562C69DA6800878295 /* Newbie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newbie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F72C592C69DA6800878295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15F72C5B2C69DA6800878295 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15F72C5D2C69DA6800878295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15F72C5D2C69DA6800878295 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
 		15F72C602C69DA6800878295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15F72C622C69DA6A00878295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15F72C652C69DA6A00878295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15F72C672C69DA6A00878295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15F72C6C2C69DA6C00878295 /* NewbieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewbieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15F72C702C69DA6D00878295 /* NewbieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewbieTests.swift; sourceTree = "<group>"; };
+		15F72C702C69DA6D00878295 /* OrderListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTests.swift; sourceTree = "<group>"; };
 		15F72C762C69DA6D00878295 /* NewbieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewbieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F72C7A2C69DA6D00878295 /* NewbieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewbieUITests.swift; sourceTree = "<group>"; };
 		15F72C7C2C69DA6D00878295 /* NewbieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewbieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15F72C8D2C69DB1D00878295 /* OrdersListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListTableViewCell.swift; sourceTree = "<group>"; };
+		15F72C8E2C69DB1D00878295 /* OrdersListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersListTableViewCell.xib; sourceTree = "<group>"; };
+		15F72C912C69DB8500878295 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		15F72C942C6B18F100878295 /* OrderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModel.swift; sourceTree = "<group>"; };
+		15F72C962C6B195B00878295 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		15F72C982C6B602000878295 /* ViewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOrderViewController.swift; sourceTree = "<group>"; };
+		15F72C9B2C6B7F8600878295 /* OrderListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListProtocol.swift; sourceTree = "<group>"; };
+		15F72C9E2C6B803100878295 /* MockUrlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUrlProtocol.swift; sourceTree = "<group>"; };
+		15F72CA02C6B80C100878295 /* MockOrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockOrderList.swift; sourceTree = "<group>"; };
+		15F72CA32C6B847A00878295 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15F72CA52C6C7A8000878295 /* GetOrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrdersViewModel.swift; sourceTree = "<group>"; };
+		15F72CA72C6C7AAB00878295 /* MockGetOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetOrders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +123,15 @@
 		15F72C582C69DA6800878295 /* Newbie */ = {
 			isa = PBXGroup;
 			children = (
+				15F72CA22C6B847000878295 /* Utils */,
+				15F72C9A2C6B7F6D00878295 /* Protocol */,
+				15F72C932C69DB8900878295 /* Services */,
+				15F72C8C2C69DAFD00878295 /* View */,
+				15F72C8B2C69DACB00878295 /* ViewModel */,
+				15F72C8A2C69DAC400878295 /* Model */,
+				15F72C892C69DAAF00878295 /* Controllers */,
 				15F72C592C69DA6800878295 /* AppDelegate.swift */,
 				15F72C5B2C69DA6800878295 /* SceneDelegate.swift */,
-				15F72C5D2C69DA6800878295 /* ViewController.swift */,
 				15F72C5F2C69DA6800878295 /* Main.storyboard */,
 				15F72C622C69DA6A00878295 /* Assets.xcassets */,
 				15F72C642C69DA6A00878295 /* LaunchScreen.storyboard */,
@@ -113,7 +143,8 @@
 		15F72C6F2C69DA6D00878295 /* NewbieTests */ = {
 			isa = PBXGroup;
 			children = (
-				15F72C702C69DA6D00878295 /* NewbieTests.swift */,
+				15F72C9D2C6B801E00878295 /* Mocks */,
+				15F72C702C69DA6D00878295 /* OrderListTests.swift */,
 			);
 			path = NewbieTests;
 			sourceTree = "<group>";
@@ -125,6 +156,75 @@
 				15F72C7C2C69DA6D00878295 /* NewbieUITestsLaunchTests.swift */,
 			);
 			path = NewbieUITests;
+			sourceTree = "<group>";
+		};
+		15F72C892C69DAAF00878295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C5D2C69DA6800878295 /* OrderListViewController.swift */,
+				15F72C982C6B602000878295 /* ViewOrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		15F72C8A2C69DAC400878295 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C942C6B18F100878295 /* OrderListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15F72C8B2C69DACB00878295 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C962C6B195B00878295 /* OrderViewModel.swift */,
+				15F72CA52C6C7A8000878295 /* GetOrdersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15F72C8C2C69DAFD00878295 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C8D2C69DB1D00878295 /* OrdersListTableViewCell.swift */,
+				15F72C8E2C69DB1D00878295 /* OrdersListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15F72C932C69DB8900878295 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C912C69DB8500878295 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		15F72C9A2C6B7F6D00878295 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C9B2C6B7F8600878295 /* OrderListProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		15F72C9D2C6B801E00878295 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				15F72C9E2C6B803100878295 /* MockUrlProtocol.swift */,
+				15F72CA02C6B80C100878295 /* MockOrderList.swift */,
+				15F72CA72C6C7AAB00878295 /* MockGetOrders.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		15F72CA22C6B847000878295 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				15F72CA32C6B847A00878295 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +333,7 @@
 			files = (
 				15F72C632C69DA6A00878295 /* Assets.xcassets in Resources */,
 				15F72C662C69DA6A00878295 /* Base in Resources */,
+				15F72C902C69DB1D00878295 /* OrdersListTableViewCell.xib in Resources */,
 				15F72C612C69DA6800878295 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +359,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F72C5E2C69DA6800878295 /* ViewController.swift in Sources */,
+				15F72C5E2C69DA6800878295 /* OrderListViewController.swift in Sources */,
+				15F72C9C2C6B7F8600878295 /* OrderListProtocol.swift in Sources */,
 				15F72C5A2C69DA6800878295 /* AppDelegate.swift in Sources */,
+				15F72C8F2C69DB1D00878295 /* OrdersListTableViewCell.swift in Sources */,
+				15F72C922C69DB8500878295 /* WebService.swift in Sources */,
+				15F72CA62C6C7A8000878295 /* GetOrdersViewModel.swift in Sources */,
+				15F72CA42C6B847A00878295 /* Constants.swift in Sources */,
+				15F72C952C6B18F100878295 /* OrderListModel.swift in Sources */,
+				15F72C972C6B195B00878295 /* OrderViewModel.swift in Sources */,
+				15F72C992C6B602000878295 /* ViewOrderViewController.swift in Sources */,
 				15F72C5C2C69DA6800878295 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F72C712C69DA6D00878295 /* NewbieTests.swift in Sources */,
+				15F72C712C69DA6D00878295 /* OrderListTests.swift in Sources */,
+				15F72CA12C6B80C100878295 /* MockOrderList.swift in Sources */,
+				15F72C9F2C6B803100878295 /* MockUrlProtocol.swift in Sources */,
+				15F72CA82C6C7AAB00878295 /* MockGetOrders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
